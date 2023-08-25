@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <input type="button" value="Mandar" onclick=mandar()>
+    
+    <script>
+        async function mandar() {
+            const postItem={
+                nome: "Naah",
+                idade: 17
+            }
+            const init={
+                method: "POST",
+                headers: {
+                    'Content-Type': 'application/json'
+                },
+                body: JSON.stringify(postItem)
+            }
+            
+            const response = await fetch("http://127.0.0.1:5000/iniciar", init)
+            const dados = await response.json()
+    }
+    </script>
+</body>
+</html>

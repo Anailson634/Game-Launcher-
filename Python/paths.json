@@ -1,0 +1,5 @@
+{
+    "CallOfDuty": {"Exe": "C:\\Gaming\\CallOfDuty2\\CoD2MP_s.exe", "Ico": "CallOfDuty.jpg"},
+    "PlayStation": {"Exe": "C:\\Emuladores\\PCSX21.6.0\\pcsx2.exe", "Ico":"ps1-playstation-1.png"},
+    "SuperNintendo": {"Exe": "C:\\Emuladores\\SuperNitendo\\SNES9X\\snes9x.exe", "Ico": "SuperNintendo.jpg"}
+}
